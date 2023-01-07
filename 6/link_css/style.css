@@ -1,0 +1,9 @@
+.container {
+  display: flex;
+  gap: 32px;
+}
+
+.item {
+  padding: 32px;
+  background-color: indigo;
+}
