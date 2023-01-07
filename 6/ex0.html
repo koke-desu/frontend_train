@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>hello html</title>
+  <style>
+    /* 見やすいように、画面の端から幅を空ける */
+    body {
+      padding: 32px;
+    }
+
+    .button {
+      padding: 8px 32px;
+      background-color: gray;
+      border: solid 1px black;
+    }
+
+    /* classよりもidで指定した色が優先される */
+    #selected {
+      background-color: white;
+    }
+  </style>
+</head>
+
+<body>
+  <button class="button" id="selected">新着情報</button>
+  <button class="button">入試情報</button>
+  <button class="button">イベント</button>
+</body>
+
+</html>
