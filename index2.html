@@ -10,6 +10,11 @@
       color: white;
     }
 
+    /* pタグはデフォルトでmarginがついているため、0に上書き。 */
+    p {
+      margin: 0;
+    }
+
     .container {
       display: flex;
       width: 100%;
@@ -18,8 +23,9 @@
 
     .item {
       display: flex;
-      align-items: center;
       flex-direction: column;
+      align-items: center;
+      padding: 8px;
     }
 
     .item1 {
@@ -35,8 +41,17 @@
     }
 
     .department-container {
+      flex: 1;
       display: flex;
+      gap: 8px;
+    }
 
+    .department {
+      background-color: #6d9dcd;
+      height: 100%;
+      width: 100%;
+      text-align: center;
+      padding: auto 0;
     }
   </style>
 </head>
